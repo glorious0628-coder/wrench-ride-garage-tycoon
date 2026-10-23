@@ -1,0 +1,15 @@
+{
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "usd": 0.5526,
+  "searches": 20,
+  "turns": 1,
+  "tokens": {
+    "input": 128433,
+    "output": 9569,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "stop_reason": "end_turn",
+  "topic_file": "notes/research/api/topics/sedan_internals.md"
+}

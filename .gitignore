@@ -1,0 +1,9 @@
+.env
+.env.*
+*.key
+__pycache__/
+*.rbxl
+*.rbxlx
+*.glb
+*.png
+*.jpg

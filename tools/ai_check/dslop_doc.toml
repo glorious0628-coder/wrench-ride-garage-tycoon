@@ -1,0 +1,8 @@
+# dslop 규칙 — 긴 글(소개글·패치노트)용. '통계 항목'(문장 길이가 너무 일정함 등)만 보려고 쓰는 설정.
+# 설명은 dslop_ui.toml 위쪽과 같아요. 이 설정으로 나온 패턴 걸림은 참고만 하고, 글 하나하나 판정은 dslop_ui.toml 쪽을 봐요.
+[patterns]
+banned-negation = false
+
+[metrics]
+sentence-length-cv = 0.3
+sentence-length-kurtosis = 1.5

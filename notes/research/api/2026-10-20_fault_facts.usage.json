@@ -1,0 +1,15 @@
+{
+  "model": "claude-sonnet-5-5",
+  "effort": "low",
+  "usd": 0.0488,
+  "searches": 0,
+  "turns": 1,
+  "tokens": {
+    "input": 7891,
+    "output": 3302,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "stop_reason": "end_turn",
+  "topic_file": "notes/research/api/topics/fault_facts.md"
+}

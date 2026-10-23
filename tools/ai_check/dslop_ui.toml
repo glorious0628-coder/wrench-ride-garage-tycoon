@@ -1,0 +1,10 @@
+# dslop 규칙 — 짧은 한 줄 글(UI 글자)용. 문장 하나씩 따로 검사해요.
+# 주의: 이 파일에 문법 오류가 있으면 dslop이 조용히 기본 규칙으로 돌아가요 (ai_look_check.py가 시작할 때 확인해요).
+# 'not'/"n't" 금지 규칙(banned-negation)은 UI 글("Can't ...", "Not enough cash")에 너무 많이 걸려서 끔.
+[patterns]
+banned-negation = false
+
+# 한 줄 글은 문장 길이·단어 분포 통계가 의미 없어서 끔
+[metrics]
+sentence-length-cv = false
+sentence-length-kurtosis = false

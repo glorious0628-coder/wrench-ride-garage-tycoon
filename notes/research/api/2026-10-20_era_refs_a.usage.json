@@ -1,0 +1,15 @@
+{
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "usd": 0.1339,
+  "searches": 0,
+  "turns": 1,
+  "tokens": {
+    "input": 7481,
+    "output": 11890,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "stop_reason": "end_turn",
+  "topic_file": "notes/research/api/topics/era_refs_a.md"
+}

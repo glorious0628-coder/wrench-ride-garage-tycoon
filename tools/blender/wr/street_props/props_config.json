@@ -1,0 +1,37 @@
+{
+ "_note": "Cartoon City street props (RG Poly, CC0) -> our GLBs. Read by build_atlas.py and export_props.py. Blender frame after glTF import: +Z up, +Y = GLB/Roblox front (-Z). rot_z_deg turns the pack model so its front faces +Y. variant 1 = second colour copy of a cluster (mailbox lid).",
+ "metres_per_stud": 0.28,
+ "atlas": {"name": "street_props_atlas", "width": 512, "pad": 16, "margin": 3},
+ "mr": {"City_Atlas": [0.0, 1.0], "City_Metal_2": [0.5596, 0.2981], "City_Car_8": [0.2202, 0.7064]},
+ "props": [
+  {"name": "Prop_Hydrant", "src": "Hydrant.glb", "sheet_no": "00", "rot_z_deg": 0, "front": "one hose outlet faces front (outlets on front/back, pack +-Z)",
+   "variant_rule": {"variant": 1, "why": "bonnet (top dome above the upper flange) + the two nozzle caps (outlet ends past the collar bevel)",
+                    "any": [{"coord": "z", "min_ge": 0.7355}, {"coord": "y", "offset": 0.003, "abs": true, "min_ge": 0.2675}]},
+   "recolor": [
+     {"mat": "City_Atlas", "probe": null, "variant": 0, "to": "#F4B000", "ref_row": 425, "gamma": 0.7, "why": "barrel chrome yellow (NFPA 291 public hydrant; hex = our estimate)"},
+     {"mat": "City_Atlas", "probe": null, "variant": 1, "to": "#2E9E4A", "ref_row": 395, "gamma": 0.7, "why": "bonnet + caps green = class A 1,000-1,499 gpm (NFPA 291; hex = our estimate)"}
+   ]},
+  {"name": "Prop_Hydrant_Blue", "src": "Hydrant.glb", "sheet_no": "00", "rot_z_deg": 0, "front": "same mesh as Prop_Hydrant",
+   "variant_rule": {"variant": 1, "why": "same as Prop_Hydrant",
+                    "any": [{"coord": "z", "min_ge": 0.7355}, {"coord": "y", "offset": 0.003, "abs": true, "min_ge": 0.2675}]},
+   "recolor": [
+     {"mat": "City_Atlas", "probe": null, "variant": 0, "to": "#F4B000", "ref_row": 425, "gamma": 0.7, "why": "barrel chrome yellow (NFPA 291 public hydrant; hex = our estimate)"},
+     {"mat": "City_Atlas", "probe": null, "variant": 1, "to": "#5AB4E5", "ref_row": 395, "gamma": 0.7, "why": "bonnet + caps light blue = class AA >= 1,500 gpm (NFPA 291; hex = our estimate)"}
+   ]},
+  {"name": "Prop_Cone", "src": "Cone_1.glb", "sheet_no": "01", "rot_z_deg": 0, "front": "round, any"},
+  {"name": "Prop_Mailbox", "src": "PostBox_1_A.glb", "sheet_no": "03", "rot_z_deg": 90, "edit": "mailbox", "front": "slot + handle side (pack +X)",
+   "recolor": [
+     {"mat": "City_Atlas", "probe": [499, 85], "variant": 0, "to": "#5B6B34", "ref_row": 105, "why": "walls olive drab like US mail boxes 1909-1955 (note: no official value, #4B5320 estimate, a little lighter for our style)"},
+     {"mat": "City_Atlas", "probe": [499, 85], "variant": 1, "to": "#3A3D42", "ref_row": 28, "why": "flat lid + slot hood dark grey"}
+   ]},
+  {"name": "Prop_Trashbag", "src": "Trashbag_A_1.glb", "sheet_no": "08", "rot_z_deg": 0, "front": "round, any"},
+  {"name": "Prop_FireEscapeStair", "src": "FireEscape_A_2.glb", "sheet_no": "13", "rot_z_deg": 180, "origin": "stair_bottom", "front": "climbs toward front (-Z / LookVector)",
+   "recolor": [
+     {"mat": "City_Atlas", "probe": null, "variant": 0, "to": "#3A3D42", "ref_row": 760, "mr": [0.3, 0.6], "why": "brown (looked like wood) -> dark iron"}
+   ]},
+  {"name": "Prop_Tire", "src": "Tire.glb", "sheet_no": "18", "rot_z_deg": 0, "front": "lying flat, round"},
+  {"name": "Prop_GasCan", "src": "Carnister.glb", "sheet_no": "21", "rot_z_deg": 90, "front": "broad X-pattern side (pack +X); spout at top left"},
+  {"name": "Prop_ParkBin_1", "src": "Trashbin_1_A.glb", "sheet_no": "41", "rot_z_deg": 0, "front": "round, any"},
+  {"name": "Prop_ParkBin_2", "src": "Trashbin_1_B.glb", "sheet_no": "42", "rot_z_deg": 0, "front": "round, any"}
+ ]
+}

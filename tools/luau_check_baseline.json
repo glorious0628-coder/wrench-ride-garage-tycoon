@@ -1,0 +1,217 @@
+{
+ "src/ReplicatedStorage/Shared/CarParts.luau": {
+  "TypeError: Cannot call a value of type { [string]: any } in union:": 1
+ },
+ "src/ReplicatedStorage/Shared/PartData/Cars/Sedan.luau": {
+  "TypeError: Cannot call a value of type { [string]: any } in union:": 1
+ },
+ "src/ReplicatedStorage/Shared/Remotes.luau": {
+  "TypeError: Expected type table, got 'nil' instead": 2
+ },
+ "src/ServerScriptService/Dev/CoopTest.luau": {
+  "FunctionUnused: Function 'newPartPath' is never used; prefix with '_' to silence": 1,
+  "LocalShadow: Variable 't0' shadows previous declaration at line N": 1
+ },
+ "src/ServerScriptService/Main.server.luau": {
+  "ImplicitReturn: Function can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "TypeError: Key 'Halloween' not found in table 'S'": 2,
+  "TypeError: Key 'Minigames' not found in table 'S'": 1,
+  "TypeError: Key 'Restore' not found in table 'S'": 1,
+  "TypeError: Key 'Shift' not found in table 'S'": 2
+ },
+ "src/ServerScriptService/Modules/BoltService.luau": {
+  "ImplicitReturn: Function 'onBolt' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "TypeError: Expected this to be 'number', but got 'number?'": 1
+ },
+ "src/ServerScriptService/Modules/CarService.luau": {
+  "TypeError: Cannot call a value of type { [Player]: boolean } in union:": 1
+ },
+ "src/ServerScriptService/Modules/CarryService.luau": {
+  "ImplicitReturn: Function 'install' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "ImplicitReturn: Function 'pickUp' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "ImplicitReturn: Function 'pushPiston' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "TypeError: Value of type 'BasePart?' could be nil": 1
+ },
+ "src/ServerScriptService/Modules/CustomerService.luau": {
+  "TypeError: Cannot call a value of type { [string]: AnimationTrack } in union:": 1,
+  "TypeError: Expected this to be 'number', but got 'number | unknown'": 1
+ },
+ "src/ServerScriptService/Modules/DiagnosisService.luau": {
+  "ImplicitReturn: Function 'onCheck' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "ImplicitReturn: Function can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1
+ },
+ "src/ServerScriptService/Modules/JackService.luau": {
+  "TypeError: Cannot call a value of type { [string]: PVInstance } in union:": 2,
+  "TypeError: Type \"F\" | \"R\" cannot be compared with true": 1
+ },
+ "src/ServerScriptService/Modules/JobService.luau": {
+  "ImplicitReturn: Function 'release' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "LocalShadow: Variable 'kind' shadows previous declaration at line N": 1,
+  "LocalShadow: Variable 'kindName' shadows previous declaration at line N": 3,
+  "TypeError: Cannot call a value of type { [string]: Instance } in union:": 1,
+  "TypeError: Cannot call a value of type { [string]: { money: number, n: number } } in union:": 2
+ },
+ "src/ServerScriptService/Modules/LiftService.luau": {
+  "TypeError: Expected this to be 'number', but got 'number | unknown'": 1
+ },
+ "src/ServerScriptService/Modules/MinigameService.luau": {
+  "ImplicitReturn: Function 'input' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "TypeError: Cannot call a value of type { [string]: any } in union:": 1
+ },
+ "src/ServerScriptService/Modules/PlayerData.luau": {
+  "TypeError: Cannot call a value of type { [string]: any } in union:": 1
+ },
+ "src/ServerScriptService/Modules/RestoreService.luau": {
+  "ImplicitReturn: Function 'finish' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "ImplicitReturn: Function 'workRust' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "ImplicitReturn: Function can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "TypeError: Expected this to be 'number | string', but got 'unknown?'": 2,
+  "TypeError: Key 'Body' not found in external type 'Model'": 2,
+  "TypeError: Table type '{| done: any, k: any |}' not compatible with type '{| a: {| n: any, sev: any, spot: any, step: any, total: any |}, done: any, k: any |}' because the former is missing field 'a'": 1
+ },
+ "src/ServerScriptService/Modules/ShopService.luau": {
+  "TypeError: Expected this to be 'number', but got 'number?'": 1
+ },
+ "src/ServerScriptService/Modules/ShowroomService.luau": {
+  "ImplicitReturn: Function 'hear' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1
+ },
+ "src/ServerScriptService/Modules/StationService.luau": {
+  "ImplicitReturn: Function 'readCodes' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "ImplicitReturn: Function 'startBalance' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1
+ },
+ "src/ServerScriptService/Modules/UpgradeService.luau": {
+  "TypeError: Expected this to be 'boolean', but got 'boolean?'": 1
+ },
+ "src/ServerScriptService/Modules/WorkService.luau": {
+  "ImplicitReturn: Function 'onPick' can implicitly return no values even though there's an explicit return at line N; add explicit return to silence": 1,
+  "TypeError: Cannot call a value of type { [string]: Player } in union:": 3
+ },
+ "src/ServerScriptService/World/Expansion.luau": {
+  "FunctionUnused: Function 'backBuilding' is never used; prefix with '_' to silence": 1,
+  "TypeError: Cannot cast 'Instance?' into 'string' because the types are unrelated": 1,
+  "TypeError: Expected this to be 'Instance?', but got 'string'": 2
+ },
+ "src/ServerScriptService/World/Facade.luau": {
+  "TypeError: Cannot cast 'Instance?' into 'string' because the types are unrelated": 1,
+  "TypeError: Cannot cast 'string' into 'number' because the types are unrelated": 1,
+  "TypeError: Expected this to be 'Instance?', but got 'string'": 1,
+  "TypeError: Expected this to be 'string', but got 'boolean'": 1,
+  "TypeError: Expected this to be 'string', but got 'number'": 1
+ },
+ "src/ServerScriptService/World/FlipPlaces.luau": {
+  "LocalUnused: Variable 'rod' is never used; prefix with '_' to silence": 1
+ },
+ "src/ServerScriptService/World/Gearport.luau": {
+  "TypeError: Cannot cast 'number' into 'Color3' because the types are unrelated": 1,
+  "TypeError: Expected this to be 'number', but got 'Color3'": 4
+ },
+ "src/ServerScriptService/World/GearportDistricts.luau": {
+  "LocalUnused: Variable 'BRICK' is never used; prefix with '_' to silence": 1,
+  "LocalUnused: Variable 'ROOFS' is never used; prefix with '_' to silence": 1,
+  "LocalUnused: Variable 'SIDING' is never used; prefix with '_' to silence": 1
+ },
+ "src/ServerScriptService/World/GearportProps.luau": {
+  "TypeError: Expected this to be 'MeshPart?', but got '(MeshPart | true)?'": 1
+ },
+ "src/ServerScriptService/World/Halloween.luau": {
+  "TypeError: Expected this to be 'Instance', but got '{- FindFirstChild: (tp2) -> (t1, a...) -} where t1 = {- IsA: (t1, string) -> ('b, c...), Position: {- X: number? -} -} ; tp2 = {- FindFirstChild: (tp2) -> (t1, a...) -}, string'": 2,
+  "TypeError: Expected this to be 'number', but got 'number?'": 1,
+  "TypeError: Unknown type used in + operation; consider adding a type annotation to 'cx'": 1
+ },
+ "src/ServerScriptService/World/Interior.luau": {
+  "TypeError: Expected this to be 'number', but got 'Color3'": 9,
+  "TypeError: Key 'Bay1' not found in external type 'Instance'": 1
+ },
+ "src/ServerScriptService/World/Junkyard.luau": {
+  "TypeError: Cannot cast 'number' into 'Color3' because the types are unrelated": 1,
+  "TypeError: Cannot cast 'number' into 'string' because the types are unrelated": 1,
+  "TypeError: Expected this to be 'number', but got 'Color3'": 2,
+  "TypeError: Expected this to be 'number', but got 'string'": 2
+ },
+ "src/ServerScriptService/World/LivedIn.luau": {
+  "TypeError: Expected this to be 'Color3', but got 'number'": 1,
+  "TypeError: Expected this to be 'number', but got 'Color3'": 1,
+  "TypeError: Key 'Bays' not found in external type 'Model'": 1
+ },
+ "src/ServerScriptService/World/Motors.luau": {
+  "TypeError: Expected this to be 'number', but got 'string'": 2,
+  "TypeError: Expected this to be 'string', but got 'number'": 1
+ },
+ "src/ServerScriptService/World/Props.luau": {
+  "TypeError: Key 'Bays' not found in external type 'Model'": 1,
+  "TypeError: Key 'WaitingRoom' not found in external type 'Model'": 1
+ },
+ "src/ServerScriptService/World/Street.luau": {
+  "LocalUnused: Variable 'strip' is never used; prefix with '_' to silence": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Cinema.luau": {
+  "TypeError: Expected this to be 'Frame', but got 'CanvasGroup'": 1,
+  "TypeError: Key 'GroupTransparency' not found in external type 'Frame'": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Guide.luau": {
+  "TypeError: Expected this to be": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/GuideButton.luau": {
+  "ImportUnused: Import 'Localizer' is never used; prefix with '_' to silence": 1,
+  "LocalUnused: Variable 'Players' is never used; prefix with '_' to silence": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/HUD.luau": {
+  "TypeError: Expected this to be 'UDim2', but got 'unknown?'": 1,
+  "TypeError: Expected this to be 'number | string', but got 'string?'": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Hotbar.luau": {
+  "LocalShadow: Variable 'key' shadows previous declaration at line N": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/JobCard.luau": {
+  "TypeError: Expected this to be": 1,
+  "TypeError: Expected this to be 'string', but got 'string | unknown'": 1,
+  "TypeError: Expected type table, got 'string | unknown' instead": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Listen.luau": {
+  "LocalUnused: Variable 'player' is never used; prefix with '_' to silence": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Localizer.luau": {
+  "TypeError: Cannot call a value of type {any} in union:": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/MechAnim.luau": {
+  "TypeError: Expected this to be 'Animator', but got 'Animator?'": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Music.luau": {
+  "TypeError: Expected this to be 'number', but got 'number?'": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/NameWindow.luau": {
+  "LocalUnused: Variable 'TweenService' is never used; prefix with '_' to silence": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/PartTag.luau": {
+  "FunctionUnused: Function 'inWork' is never used; prefix with '_' to silence": 1,
+  "ImportUnused: Import 'CarParts' is never used; prefix with '_' to silence": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/PromptUI.luau": {
+  "TypeError: Key 'Visible' not found in external type 'Instance'": 1,
+  "TypeError: Value of type 'Instance?' could be nil": 1,
+  "TypeError: Value of type 'Tween?' could be nil": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Scrub.luau": {
+  "TypeError: Value of type 'ImageLabel?' could be nil": 8
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Tutorial.luau": {
+  "FunctionUnused: Function 'driver' is never used; prefix with '_' to silence": 1,
+  "FunctionUnused: Function 'fetch' is never used; prefix with '_' to silence": 1,
+  "TypeError: Expected this to be 'number', but got 'number | unknown'": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/UIKit.luau": {
+  "TypeError: Expected this to be": 1,
+  "TypeError: Expected this to be 'true', but got 'true?'": 1,
+  "TypeError: Expected type table, got 'TextButton | TextLabel' instead": 2
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/WorkView.luau": {
+  "TypeError: Cannot cast 'Instance' into 'Attachment?' because the types are unrelated": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/WorkViewUI.luau": {
+  "TypeError: Cannot call a value of type {{ at: number?, gui: Frame, ok: boolean?, part: Instance }} in union:": 1
+ },
+ "src/StarterPlayer/StarterPlayerScripts/ClientModules/Wrench.luau": {
+  "TypeError: Expected this to be 'PVInstance', but got 'BasePart?'": 1,
+  "TypeError: Expected this to be 'PVInstance', but got 'nil'": 2
+ }
+}

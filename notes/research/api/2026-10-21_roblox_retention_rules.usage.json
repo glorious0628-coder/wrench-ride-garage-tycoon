@@ -1,0 +1,15 @@
+{
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "usd": 0.4161,
+  "searches": 14,
+  "turns": 1,
+  "tokens": {
+    "input": 104244,
+    "output": 6762,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "stop_reason": "end_turn",
+  "topic_file": "notes/research/api/topics/roblox_retention_rules.md"
+}

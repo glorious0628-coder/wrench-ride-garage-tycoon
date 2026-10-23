@@ -1,0 +1,15 @@
+{
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "usd": 0.4652,
+  "searches": 14,
+  "turns": 1,
+  "tokens": {
+    "input": 134341,
+    "output": 5650,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "stop_reason": "end_turn",
+  "topic_file": "notes/research/api/topics/junk_mechanics.md"
+}
